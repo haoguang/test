@@ -1,0 +1,95 @@
+<resources>
+    <string name="upcoming_meeting">Upcoming Meeting</string>
+    <string name="app_name">Meetsapp</string>
+    <string name="Meeting_app_name">Meetsapp</string>>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="ABout">ABOUT</string>
+
+    <string name="password">Password</string>
+    <string name="Name">Name</string>
+    <!-- Organization Meeting -->
+    <string name="View_Title">Name</string>
+    <string name="Enter_Title">Enter Name</string>
+    <string name="choose_Date">Choose Date</string>
+    <string name="choose_time">Choose Time</string>
+    <string name="Enter_Location_String">Enter Location</string>
+    <string name="Enter_Objective_String">Enter Objective</string>
+    <string name="Label_invite">Invite --->></string>
+    <string name="Enter_invite">Enter Invite name</string>
+    <string name="Submit_Organization_button">Submit</string>
+    <string name="Cancel_Organization_button">Cancel</string>
+    <string name="no_date_set_string">0000-00-00</string>
+    <string name="no_time_set_string">00:00:00</string>
+
+
+    <string-array name="day">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <!-- Notification detail -->
+    <string name="label_Notification_detail">Notification detail</string>
+    <string name="notiID">Notification ID: </string>
+    <string name="type">Type(u-User, m-Meeting): </string>
+    <string name="remark">Remark: </string>
+    <string name="status">Status: </string>
+
+    <string name="attend">Attend</string>>
+    <string name="x_attend">X Attend</string>
+    <string name="attendURL">http://meetsapp.chinfinitecarworld.com/updateNotification.php</string>
+
+    <!-- Meeting detail -->
+    <string name="label_Meeting_detail">Meeting detail</string>
+
+    <string name="meeting_detail">Detail</string>
+    <string name="meeting_schedule">Schedule</string>
+    <string name="meeting_participants">Participants</string>
+    <string name="EnterMeetingID">meeting id</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_meeting_info">MeetingInfo</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="pass_forget">Forget your password?</string>
+    <string name="create_account">Create account</string>
+    <string name="prompt_email">Email/Phone No</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="error_field_empty">Field cannot be empty</string>
+    <string name="phone">Phone No</string>
+    <string name="showPwd">show password</string>
+    <string name="register">Register</string>
+
+    <!-- drawer strings-->
+    <string name="friend">Friends</string>
+    <string name="organize_meeting">Organize Meeting</string>
+    <string name="meeting_history">Meeting History</string>
+    <string name="notification">Notification</string>
+    <string name="log_out">Log Out</string>
+    <string name="send">Send</string>
+    <string name="share">Share</string>
+    <string name="communicate">Communicate</string>
+
+</resources>

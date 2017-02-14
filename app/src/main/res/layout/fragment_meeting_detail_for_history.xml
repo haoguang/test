@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grey"
+    tools:context="com.example.lawre.myapplication.Meeting_detail_for_history">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/Meeting_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_Meeting_detail"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/Enter_Title"
+        android:ems="10"
+        android:layout_below="@+id/Meeting_detail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:id="@+id/get_title" />
+
+    <!-- retrive from database text -->
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:text="date detail"
+        android:layout_marginTop="16dp"
+        android:id="@+id/get_date"
+        android:layout_below="@+id/get_title"
+        android:layout_alignStart="@+id/get_title" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="time detail"
+        android:ems="10"
+        android:id="@+id/get_time"
+        android:layout_below="@+id/get_date"
+        android:layout_alignStart="@+id/get_date"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="location detail"
+        android:ems="10"
+        android:layout_below="@+id/get_time"
+        android:layout_alignStart="@+id/get_time"
+        android:layout_marginTop="16dp"
+        android:id="@+id/get_location" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="objective detail"
+        android:ems="10"
+        android:layout_below="@+id/get_location"
+        android:layout_alignStart="@+id/get_location"
+        android:layout_marginTop="33dp"
+        android:id="@+id/get_objective" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="invited name"
+        android:ems="10"
+        android:layout_marginTop="18dp"
+        android:id="@+id/get_invite_name"
+        android:layout_below="@+id/get_objective"
+        android:layout_alignStart="@+id/get_objective" />
+
+
+</RelativeLayout>

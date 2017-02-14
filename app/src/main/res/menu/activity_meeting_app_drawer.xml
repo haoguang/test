@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/Organization_Meeting"
+            android:icon="@drawable/ic_menu_organization"
+            android:title="@string/organize_meeting" />
+        <item
+            android:id="@+id/upcoming_meeting"
+            android:icon="@drawable/ic_upcoming"
+            android:title="@string/upcoming_meeting" />
+        <item
+            android:id="@+id/Meeting_History"
+            android:icon="@drawable/ic_folder_black_24dp"
+            android:title="@string/meeting_history" />
+        <item
+            android:id="@+id/Notifcation"
+            android:icon="@drawable/ic_notifications_none_black_24dp"
+            android:title="@string/notification" />
+
+        <item
+            android:id="@+id/Log_Out"
+            android:icon="@drawable/ic_directions_run_black_24dp"
+            android:title="@string/log_out" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_friend"
+                android:icon="@drawable/ic_contact_book"
+                android:title="@string/friend" />
+
+        </menu>
+    </item>
+
+</menu>

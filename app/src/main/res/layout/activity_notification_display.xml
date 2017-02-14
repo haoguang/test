@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.lawre.myapplication.NotificationDisplay">
+
+    <TextView
+        android:id="@+id/Notification_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_Notification_detail"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:textStyle="normal|italic" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:layout_marginTop="150px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/table1"
+        android:layout_below="@+id/Notification_detail">
+
+        <TableRow
+            android:layout_marginTop="20px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/notiID"
+                android:id="@+id/Notification_id"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_marginLeft="30px"
+                android:text="NT0000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/noticeID"
+                android:textSize="17sp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/type"
+                android:id="@+id/notification_Type"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_marginLeft="30px"
+                android:text="m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/noticeType"
+                android:textSize="17sp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/remark"
+                android:id="@+id/notification_Remark"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_marginLeft="30px"
+                android:text="Bring assignment Paper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/noticeRemark"
+                android:textSize="17sp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/status"
+                android:id="@+id/notification_Status"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_marginLeft="30px"
+                android:text="p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/noticeStatus"
+                android:textSize="17sp"
+                />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <Button
+        android:text="@string/attend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/notification_attend_button"
+        android:layout_marginTop="59dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/table1"
+        android:layout_alignStart="@+id/table1"
+        android:onClick="attend"/>
+
+    <Button
+        android:text="@string/x_attend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/notification_cancel_button"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignBaseline="@+id/notification_attend_button"
+        android:layout_alignBottom="@+id/notification_attend_button"
+        android:layout_alignEnd="@+id/Notification_detail"
+        android:onClick="notAttend"/>
+
+
+</RelativeLayout>
