@@ -75,7 +75,7 @@ public class SessionManagement {
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             //Starting login Activity
             _context.startActivity(intent);
-
+        System.out.println("Hello world");
         }
     }
 
