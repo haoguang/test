@@ -76,6 +76,7 @@ public class SessionManagement {
             //Starting login Activity
             _context.startActivity(intent);
         System.out.println("Hello world");
+            System.out.println("This is Wei Lin");
         }
     }
 
